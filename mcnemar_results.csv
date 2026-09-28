@@ -1,0 +1,7 @@
+comparison,a_only,b_only,statistic,p_value,significant
+Logistic Regression vs Rule-Based Baseline,71,30,15.841584158415841,6.887215595255109e-05,True
+Random Forest vs Rule-Based Baseline,81,52,5.894736842105263,0.015186198557064516,True
+XGBoost vs Rule-Based Baseline,53,15,20.13235294117647,7.226389988223059e-06,True
+Logistic Regression vs Random Forest,41,29,1.7285714285714286,0.18859344218175958,False
+Logistic Regression vs XGBoost,21,18,0.10256410256410256,0.7487740417065472,False
+Random Forest vs XGBoost,30,39,0.927536231884058,0.3355039530729915,False

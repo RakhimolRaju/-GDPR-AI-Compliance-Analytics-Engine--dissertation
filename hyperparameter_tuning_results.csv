@@ -1,0 +1,4 @@
+model,best_cv_f1,best_parameters
+Logistic Regression,0.8474565704591649,"{'C': 0.1, 'class_weight': None}"
+Random Forest,0.8395535700372949,"{'class_weight': None, 'max_depth': 10, 'min_samples_split': 10, 'n_estimators': 200}"
+XGBoost,0.845801595139385,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100, 'scale_pos_weight': 1.0, 'subsample': 0.8}"

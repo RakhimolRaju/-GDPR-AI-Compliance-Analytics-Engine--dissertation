@@ -1,0 +1,13 @@
+variable_name,provider,n,chi2,p_value,significant_p<0.05,p_value_holm,significant_holm_p<0.05,cramers_v,test_used,min_expected_count,interpretation
+IAM Misconfiguration Score (binned),aws,645,65.488,5.847663011848129e-16,True,6.432429313032942e-15,True,0.3186,Chi-square,75.29,medium
+IAM Misconfiguration Score (binned),azure,802,62.146,3.199800812221081e-14,True,2.559840649776865e-13,True,0.2784,Chi-square,85.34,small
+IAM Misconfiguration Score (binned),gcp,790,62.537,2.6320340545844153e-14,True,2.3688306491259736e-13,True,0.2814,Chi-square,31.27,small
+Encryption Configuration Status,aws,645,19.964,7.891257678226378e-06,True,7.891257678226378e-06,True,0.1759,Chi-square,66.81,small
+Encryption Configuration Status,azure,802,72.982,1.3080652220026365e-17,True,1.5696782664031638e-16,True,0.3017,Chi-square,103.78,medium
+Encryption Configuration Status,gcp,790,31.539,1.9548607228861982e-08,True,5.864582168658595e-08,True,0.1998,Chi-square,44.86,small
+Network Exposure Settings,aws,645,38.585,4.18153144641679e-09,True,1.672612578566716e-08,True,0.2446,Chi-square,36.41,small
+Network Exposure Settings,azure,802,46.321,8.738295419490125e-11,True,5.242977251694075e-10,True,0.2403,Chi-square,64.0,small
+Network Exposure Settings,gcp,790,31.872,1.1997474773674536e-07,True,2.399494954734907e-07,True,0.2009,Chi-square,35.57,small
+Logging Enablement Status,aws,645,38.876,4.5162285635776904e-10,True,2.2581142817888453e-09,True,0.2455,Chi-square,83.07,small
+Logging Enablement Status,azure,802,49.581,1.903585715486411e-12,True,1.3325100008404878e-11,True,0.2486,Chi-square,65.45,small
+Logging Enablement Status,gcp,790,59.766,1.0683528627962744e-14,True,1.0683528627962744e-13,True,0.2751,Chi-square,30.36,small

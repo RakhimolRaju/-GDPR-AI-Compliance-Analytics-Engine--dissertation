@@ -1,0 +1,13 @@
+category,provider,real_n,real_failures,real_fail_rate,synthetic_n,synthetic_failures,synthetic_fail_rate,absolute_difference,test_used,test_statistic,raw_p_value,note,holm_adjusted_p,significant_difference,interpretation
+IAM Misconfiguration,AWS,33,27,0.8182,1000,695,0.695,0.1232,Two-proportion z-test,1.5178,0.1291,,1.0,False,No statistically significant difference detected
+IAM Misconfiguration,AZURE,2,0,0.0,1000,418,0.418,0.418,Fisher's Exact,,0.5132,,1.0,False,No statistically significant difference detected
+IAM Misconfiguration,GCP,3,3,1.0,1000,687,0.687,0.313,Fisher's Exact,,0.5563,,1.0,False,No statistically significant difference detected
+Encryption Failure,AWS,6,5,0.8333,1000,729,0.729,0.1043,Fisher's Exact,,1.0,,1.0,False,No statistically significant difference detected
+Encryption Failure,AZURE,3,2,0.6667,1000,642,0.642,0.0247,Fisher's Exact,,1.0,,1.0,False,No statistically significant difference detected
+Encryption Failure,GCP,2,2,1.0,1000,744,0.744,0.256,Fisher's Exact,,1.0,,1.0,False,No statistically significant difference detected
+Network Exposure,AWS,25,8,0.32,1000,345,0.345,0.025,Two-proportion z-test,-0.2598,0.795,,1.0,False,No statistically significant difference detected
+Network Exposure,AZURE,3,3,1.0,1000,610,0.61,0.39,Fisher's Exact,,0.2864,,1.0,False,No statistically significant difference detected
+Network Exposure,GCP,5,3,0.6,1000,524,0.524,0.076,Fisher's Exact,,1.0,,1.0,False,No statistically significant difference detected
+Logging Failure,AWS,71,53,0.7465,1000,657,0.657,0.0895,Two-proportion z-test,1.5412,0.1233,,1.0,False,No statistically significant difference detected
+Logging Failure,AZURE,2,2,1.0,1000,775,0.775,0.225,Fisher's Exact,,1.0,,1.0,False,No statistically significant difference detected
+Logging Failure,GCP,46,46,1.0,1000,832,0.832,0.168,Fisher's Exact,,0.0006,,0.0074,True,Statistically significant difference detected

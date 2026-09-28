@@ -1,0 +1,10 @@
+,mean_abs_shap
+iam_score,0.40635014
+encryption_status,0.30693984
+logging_status,0.28697315
+network_exposure_0,0.25524113
+network_exposure_1,0.021763455
+provider_gcp,0.020691039
+network_exposure_2,0.01504591
+provider_azure,0.0108662825
+provider_aws,0.005208803
